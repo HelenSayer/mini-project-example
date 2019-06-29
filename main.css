@@ -1,7 +1,9 @@
-body, html {
+body,
+html {
     height: 100%;
-    margin: 0; /* resets body margins to 0 otherwise the browser will set its default margins */
-    color: rgba(255, 255,255, .8);
+    margin: 0;
+    /* resets body margins to 0 otherwise the browser will set its default margins */
+    color: rgba(255, 255, 255, .8);
 }
 
 .header {
@@ -9,8 +11,10 @@ body, html {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #e84610; /* red */
-    padding: 15px 25px; /* 15px for top and bottom and 25px for left and right */
+    background-color: #e84610;
+    /* red */
+    padding: 15px 25px;
+    /* 15px for top and bottom and 25px for left and right */
 }
 
 .main {
@@ -19,7 +23,8 @@ body, html {
 
 .section {
     background-color: #0097d3;
-    height: 100%; /* 100% height of its parent */
+    height: 100%;
+    /* 100% height of its parent */
 }
 
 .vcenter {
@@ -27,10 +32,13 @@ body, html {
     top: 50%;
     transform: translateY(-50%);
 }
+
 .section-paragraph {
-    font-size: 1em; 
-    margin: 25px; /* sets margins on the paragraphs of text */
+    font-size: 1em;
+    margin: 25px;
+    /* sets margins on the paragraphs of text */
 }
+
 .footer {
     background-color: #4a4a4f;
     padding: 15px;
@@ -41,9 +49,9 @@ body, html {
         float: left;
     }
     .column-60 {
-   width: 60%;
-  }
-      .column-40 {
-          width: 40%;
-      }
+        width: 60%;
+    }
+    .column-40 {
+        width: 40%;
+    }
 }
